@@ -1,0 +1,15 @@
+1. Model Versioning:  Keeps track of different versions of machine learning models, including changes, experiments, and performance metrics. Helps in reproducibility, collaboration, and model governance by enabling teams to track changes, compare model versions, and revert to previous versions if needed. Tools like Git and Git-lfs can be used for versioning code and large model artifacts.
+
+2. Continuous Integration/Continuous Deployment (CI/CD): Automates the process of building, testing, and deploying machine learning models. Ensures that changes to the codebase or models are automatically validated and deployed in a consistent and efficient manner. Tools like Jenkins, GitLab CI/CD, and GitHub Actions are commonly used for CI/CD pipelines.
+
+3. Model Monitoring: Monitors the performance of deployed machine learning models in real-time. Helps detect drift, degradation, or anomalies in model performance, enabling proactive maintenance and retraining. Tools like Prometheus, Grafana, and MLFlow can be used for monitoring model performance and data drift.
+
+4. Experiment Tracking: Records experiments, parameters, and results during model development. Facilitates reproducibility, collaboration, and model optimization by keeping track of experiments and their outcomes. Tools like MLFlow, Neptune, and TensorBoard provide experiment tracking and visualization capabilities.
+
+5. Model Deployment: Deploys machine learning models into production environments. Enables end-users to interact with and benefit from machine learning models in real-world scenarios. Tools like Docker, Kubernetes, and serverless platforms (e.g., AWS Lambda, Azure Functions) are commonly used for model deployment.
+
+6. Model Serving:  Serves predictions from deployed machine learning models to end-users or other systems. Enables integration of machine learning models into applications, websites, or APIs for real-time inference. Tools like TensorFlow Serving, FastAPI, and Flask can be used for model serving.
+
+7. Model Governance: Manages the lifecycle of machine learning models, including compliance, security, and ethical considerations. Ensures that models are developed, deployed, and maintained in a responsible and accountable manner. Tools like ModelDB, Allegro Trains, and ModelOp Center provide governance features such as model lineage tracking, access control, and audit trails.
+
+These components form the foundation of MLOps practices and help organizations streamline the development, deployment, and management of machine learning models at scale. By understanding and implementing these components effectively, teams can accelerate model delivery, improve collaboration, and mitigate risks associated with model deployment and maintenance.
